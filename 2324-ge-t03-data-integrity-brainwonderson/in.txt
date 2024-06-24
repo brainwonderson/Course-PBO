@@ -1,0 +1,39 @@
+
+Expected:
+invalid student|12S20999
+invalid course|12S2200
+10S1002|Pemrograman Prosedural|2|D
+12S2203|Object-oriented Programming|3|C
+12S20999|Wiro Sableng|2020|Information Systems
+12S20111|Jaka Sembung|2019|Information Systems
+12S2203|12S20999|2021/2022|even|None
+Actual:
+invalid student|12S20000
+invalid course|12S2200
+invalid student|12S20999
+10S1002|Pemrograman Prosedural|2|D
+12S2203|Object-oriented Programming|3|C
+12S20999|Wiro Sableng|2020|Information Systems
+12S20111|Jaka Sembung|2019|Information Systems
+12S2203|12S20999|2021/2022|even|None
+
+
+      "input": "
+course-add#12S2203#Object-oriented Programming#3#
+course-add#10S1002#Pemrograman Prosedural#2#D
+enrollment-add#12S2203#12S20999#2021/2022#even
+student-add#12S20999#Wiro Sableng#2020#Information Systems
+enrollment-add#12S2203#12S20999#2021/2022#even
+student-add#12S20111#Jaka Sembung#2019#Information Systems
+enrollment-add#12S2200#12S20000#2020/2021#odd
+---
+",
+      "output": "
+invalid student|12S20999
+invalid course|12S2200
+10S1002|Pemrograman Prosedural|2|D
+12S2203|Object-oriented Programming|3|
+12S20999|Wiro Sableng|2020|Information Systems
+12S20111|Jaka Sembung|2019|Information Systems
+12S2203|12S20999|2021/2022|even|None
+",
