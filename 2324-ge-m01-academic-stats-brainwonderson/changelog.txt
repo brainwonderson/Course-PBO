@@ -1,0 +1,100 @@
+lecturer-add#0130058501#Parmonangan Rotua Togatorop#PAT#mona.togatorop@del.ac.id#Information Systems
+lecturer-add#0114129002#Iustisia Natalia Simbolon#IUS#iustisia.simbolon@del.ac.id#Informatics
+lecturer-add#0124108201#Rosni Lumbantoruan#RSL#rosni@del.ac.id#Information Systems
+course-add#12S2102#Basisdata#4#C#PAT,IUS,RSL
+course-add#12S1101#Dasar Sistem Informasi#3#D#IUS
+student-add#12S20001#Marcelino Manalu#2020#Information Systems
+enrollment-add#12S2102#12S20001#2021/2022#odd
+student-add#12S20002#Yoga Sihombing#2020#Information Systems
+student-add#12S20003#Marcel Simanjuntak#2020#Information Systems
+enrollment-add#12S2102#12S20002#2021/2022#odd
+student-details#12S20002
+enrollment-grade#12S2102#12S20002#2021/2022#odd#AB
+student-add#12S20001#Marcelino Manalu#2020#Information Systems
+enrollment-add#12S1101#12S20001#2020/2021#odd
+student-add#12S20002#Yoga Sihombing#2020#Information Systems
+enrollment-add#12S1101#12S20002#2020/2021#odd
+enrollment-add#12S1101#12S20003#2020/2021#odd
+enrollment-grade#12S1101#12S20001#2020/2021#odd#B
+enrollment-grade#12S1101#12S20002#2020/2021#odd#B
+enrollment-grade#12S1101#12S20003#2020/2021#odd#B
+student-details#12S20003
+---
+
+      "output": 
+      12S20002|Yoga Sihombing|2020|Information Systems|0.00|0
+      12S20003|Marcel Simanjuntak|2020|Information Systems|3.00|3
+      0130058501|Parmonangan Rotua Togatorop|PAT|mona.togatorop@del.ac.id|Information Systems
+      0114129002|Iustisia Natalia Simbolon|IUS|iustisia.simbolon@del.ac.id|Informatics
+      0124108201|Rosni Lumbantoruan|RSL|rosni@del.ac.id|Information Systems
+      12S2102|Basisdata|4|C|PAT (mona.togatorop@del.ac.id);IUS (iustisia.simbolon@del.ac.id);RSL (rosni@del.ac.id)
+      12S1101|Dasar Sistem Informasi|3|D|IUS (iustisia.simbolon@del.ac.id)
+      12S20001|Marcelino Manalu|2020|Information Systems
+      12S20002|Yoga Sihombing|2020|Information Systems
+      12S20003|Marcel Simanjuntak|2020|Information Systems
+      12S2102|12S20001|2021/2022|odd|None
+      12S2102|12S20002|2021/2022|odd|AB
+      12S1101|12S20001|2020/2021|odd|B
+      12S1101|12S20002|2020/2021|odd|B
+      12S1101|12S20003|2020/2021|odd|B
+      ",
+
+
+ "input": 
+ student-add#12S20001#Marcelino Manalu#2020#Information Systems
+ lecturer-add#0114129002#Iustisia Natalia Simbolon#IUS#iustisia.simbolon@del.ac.id#Informatics
+ lecturer-add#0130058501#Parmonangan Rotua Togatorop#PAT#mona.togatorop@del.ac.id#Information Systems
+ lecturer-add#0124108201#Rosni Lumbantoruan#RSL#rosni@del.ac.id#Information Systems
+ course-add#12S2102#Basisdata#4#C#PAT,IUS,RSL
+ course-add#12S1101#Dasar Sistem Informasi#3#D#IUS
+ student-add#12S20001#Marcelino Manalu#2020#Information Systems
+ enrollment-add#12S2102#12S20001#2021/2022#odd
+ student-add#12S20002#Yoga Sihombing#2020#Information Systems
+ student-add#12S20003#Marcel Simanjuntak#2020#Information Systems
+ enrollment-add#12S2102#12S20002#2021/2022#odd
+ student-details#12S20002
+ enrollment-grade#12S2102#12S20002#2021/2022#odd#AB
+ enrollment-add#12S1101#12S20001#2020/2021#odd
+ student-add#12S20002#Yoga Sihombing#2020#Information Systems
+ enrollment-add#12S1101#12S20002#2020/2021#odd
+ enrollment-add#12S1101#12S20003#2020/2021#odd
+ lecturer-add#0110117601#Tennov Simanjuntak#THS#tennov@del.ac.id#Information Systems
+ lecturer-add#0126078702#Guntur Petrus Boy Knight Siboro#GPS#guntur.siboro@del.ac.id#Electrical Engineering
+ course-add#10S2101#Algoritma dan Struktur Data#3#C#THS,GPS
+ enrollment-grade#12S1101#12S20001#2020/2021#odd#B
+ enrollment-grade#12S1101#12S20002#2020/2021#odd#B
+ enrollment-add#10S2101#12S20001#2021/2022#odd
+ enrollment-add#10S2101#12S20002#2021/2022#odd
+ enrollment-add#10S2101#12S20003#2021/2022#odd
+ enrollment-grade#12S1101#12S20003#2020/2021#odd#B
+ student-details#12S20002
+ enrollment-grade#10S2101#12S20001#2021/2022#odd#BC
+ enrollment-grade#10S2101#12S20002#2021/2022#odd#C
+ enrollment-grade#10S2101#12S20003#2021/2022#odd#C
+ student-details#12S20003
+ ---
+ 
+      "output": 
+      12S20002|Yoga Sihombing|2020|Information Systems|0.00|0
+      12S20002|Yoga Sihombing|2020|Information Systems|3.29|7
+      12S20003|Marcel Simanjuntak|2020|Information Systems|2.50|6
+      0114129002|Iustisia Natalia Simbolon|IUS|iustisia.simbolon@del.ac.id|Informatics
+      0130058501|Parmonangan Rotua Togatorop|PAT|mona.togatorop@del.ac.id|Information Systems
+      0124108201|Rosni Lumbantoruan|RSL|rosni@del.ac.id|Information Systems
+      0110117601|Tennov Simanjuntak|THS|tennov@del.ac.id|Information Systems
+      0126078702|Guntur Petrus Boy Knight Siboro|GPS|guntur.siboro@del.ac.id|Electrical Engineering
+      12S2102|Basisdata|4|C|PAT (mona.togatorop@del.ac.id);IUS (iustisia.simbolon@del.ac.id);RSL (rosni@del.ac.id)
+      12S1101|Dasar Sistem Informasi|3|D|IUS (iustisia.simbolon@del.ac.id)
+      10S2101|Algoritma dan Struktur Data|3|C|THS (tennov@del.ac.id);GPS (guntur.siboro@del.ac.id)
+      12S20001|Marcelino Manalu|2020|Information Systems
+      12S20002|Yoga Sihombing|2020|Information Systems
+      12S20003|Marcel Simanjuntak|2020|Information Systems
+      12S2102|12S20001|2021/2022|odd|None
+      12S2102|12S20002|2021/2022|odd|AB
+      12S1101|12S20001|2020/2021|odd|B
+      12S1101|12S20002|2020/2021|odd|B
+      12S1101|12S20003|2020/2021|odd|B
+      10S2101|12S20001|2021/2022|odd|BC
+      10S2101|12S20002|2021/2022|odd|C
+      10S2101|12S20003|2021/2022|odd|C
+      
