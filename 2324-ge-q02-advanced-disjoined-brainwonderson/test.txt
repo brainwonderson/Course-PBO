@@ -1,0 +1,93 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Driver1 {
+
+    // Existing code...
+
+    public static void main(String[] args) {
+        // Existing code...
+        while (scan.hasNext()) {
+            // Existing code...
+            switch (part[0]) {
+                // Existing cases...
+                case "find-the-best-student":
+                    findBestStudent(part[1], part[2], courses, enrollments, students);
+                    break;
+            }
+        }
+        // Existing code...
+    }
+
+    public static void findBestStudent(String academicYear, String semester, ArrayList<Course> courses, ArrayList<Enrollment> enrollments, ArrayList<Student> students) {
+        ArrayList<String> oddSemesterEnrollments = new ArrayList<>();
+        ArrayList<String> evenSemesterEnrollments = new ArrayList<>();
+
+        for (Enrollment enrollment : enrollments) {
+            if (enrollment.getyear().equals(academicYear) && enrollment.getEven().equalsIgnoreCase(semester)) {
+                evenSemesterEnrollments.add(enrollment.getId());
+            } else if (enrollment.getyear().equals(academicYear) && enrollment.getEven().equalsIgnoreCase(semester)) {
+                oddSemesterEnrollments.add(enrollment.getId());
+            }
+        }
+
+        ArrayList<StudentGPA> studentGPAs = new ArrayList<>();
+        for (String studentId : semester.equalsIgnoreCase("odd") ? oddSemesterEnrollments : evenSemesterEnrollments) {
+            double totalGradePoints = 0;
+            int totalCredits = 0;
+            for (Enrollment enrollment : enrollments) {
+                if (enrollment.getId().equals(studentId)) {
+                    for (Course course : courses) {
+                        if (course.getkode().equals(enrollment.getenrollcode())) {
+                            totalGradePoints += Student.gradepoint(enrollment.getgrade()) * course.getCredits();
+                            totalCredits += course.getCredits();
+                            break;
+                        }
+                    }
+                }
+            }
+            double gpa = totalCredits != 0 ? totalGradePoints / totalCredits : 0;
+            studentGPAs.add(new StudentGPA(studentId, gpa));
+        }
+
+        // Sorting students based on GPA
+        Collections.sort(studentGPAs);
+
+        // Print the best student(s)
+        double highestGPA = studentGPAs.get(0).gpa;
+        for (StudentGPA studentGPA : studentGPAs) {
+            if (studentGPA.gpa == highestGPA) {
+                System.out.println(studentGPA.studentId + "|" + Student.gradeFromGPA(studentGPA.gpa));
+            } else {
+                break; // Since list is sorted, no need to continue if GPA is lower
+            }
+        }
+    }
+
+    // Inner class to hold Student ID and GPA for sorting
+    static class StudentGPA implements Comparable<StudentGPA> {
+        String studentId;
+        double gpa;
+
+        public StudentGPA(String studentId, double gpa) {
+            this.studentId = studentId;
+            this.gpa = gpa;
+        }
+
+        @Override
+        public int compareTo(StudentGPA other) {
+            if (this.gpa != other.gpa) {
+                return Double.compare(other.gpa, this.gpa); // Sort in descending order of GPA
+            } else {
+                // If GPA is same, prefer even semesters over odd semesters
+                if (Integer.parseInt(this.studentId.substring(2)) % 2 == 0) {
+                    return -1; // This student has even student ID
+                } else {
+                    return 1; // Other student has even student ID
+                }
+            }
+        }
+    }
+
+    // Existing methods...
+}
