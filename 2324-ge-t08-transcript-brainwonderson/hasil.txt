@@ -1,0 +1,66 @@
+12S1101|Dasar Sistem Informasi|3|D|2020/2021|odd|IUS (iustisia.simbolon@del.ac.id)
+12S1101|12S20001|2020/2021|odd|B
+12S1101|12S20002|2020/2021|odd|B
+12S1101|12S20003|2020/2021|odd|B
+12S1101|Dasar Sistem Informasi|3|D|2021/2022|odd|IUS (iustisia.simbolon@del.ac.id)
+12S1101|12S20002|2021/2022|odd|B(C)
+12S1101|12S20003|2021/2022|odd|AB
+12S1101|Dasar Sistem Informasi|3|D|2020/2021|even|IUS (iustisia.simbolon@del.ac.id)
+12S1101|12S20001|2020/2021|even|AB(BC)
+12S1101|12S20002|2020/2021|even|A
+12S1101|12S20003|2020/2021|even|A
+12S20002|Yoga Sihombing|2020|Information Systems|3.29|7
+12S1101|12S20002|2021/2022|odd|B(C)
+12S2102|12S20002|2021/2022|odd|AB
+0130058501|Parmonangan Rotua Togatorop|PAT|mona.togatorop@del.ac.id|Information Systems
+0114129002|Iustisia Natalia Simbolon|IUS|iustisia.simbolon@del.ac.id|Informatics
+0124108201|Rosni Lumbantoruan|RSL|rosni@del.ac.id|Information Systems
+12S1101|Dasar Sistem Informasi|3|D
+12S2102|Basisdata|4|C
+12S20001|Marcelino Manalu|2020|Information Systems
+12S20002|Yoga Sihombing|2020|Information Systems
+12S20003|Marcel Simanjuntak|2020|Information Systems
+12S1101|12S20001|2020/2021|odd|B
+12S1101|12S20002|2020/2021|odd|B
+12S1101|12S20003|2020/2021|odd|B
+12S1101|12S20002|2021/2022|odd|B(C)
+12S1101|12S20003|2021/2022|odd|AB
+12S2102|12S20002|2021/2022|odd|AB
+12S2102|12S20003|2021/2022|odd|AB
+12S1101|12S20001|2020/2021|even|AB(BC)
+12S1101|12S20002|2020/2021|even|A
+12S1101|12S20003|2020/2021|even|A
+
+
+12S1101|Dasar Sistem Informasi|3|D|2020/2021|odd|IUS (iustisia.simbolon@del.ac.id)
+12S1101|12S20001|2020/2021|odd|B
+12S1101|12S20002|2020/2021|odd|B
+12S1101|12S20003|2020/2021|odd|B
+12S1101|Dasar Sistem Informasi|3|D|2021/2022|odd|IUS (iustisia.simbolon@del.ac.id)
+12S1101|12S20002|2021/2022|odd|B(C)
+12S1101|12S20003|2021/2022|odd|AB
+12S1101|Dasar Sistem Informasi|3|D|2020/2021|even|IUS (iustisia.simbolon@del.ac.id)
+12S1101|12S20001|2020/2021|even|AB(BC)
+12S1101|12S20002|2020/2021|even|A
+12S1101|12S20003|2020/2021|even|A
+12S20002|Yoga Sihombing|2020|Information Systems|3.29|7
+12S1101|12S20002|2021/2022|odd|B(C)
+12S2102|12S20002|2021/2022|odd|AB
+0130058501|Parmonangan Rotua Togatorop|PAT|mona.togatorop@del.ac.id|Information Systems
+0114129002|Iustisia Natalia Simbolon|IUS|iustisia.simbolon@del.ac.id|Informatics
+0124108201|Rosni Lumbantoruan|RSL|rosni@del.ac.id|Information Systems
+12S1101|Dasar Sistem Informasi|3|D
+12S2102|Basisdata|4|C
+12S20001|Marcelino Manalu|2020|Information Systems
+12S20002|Yoga Sihombing|2020|Information Systems
+12S20003|Marcel Simanjuntak|2020|Information Systems
+12S1101|12S20001|2020/2021|odd|B
+12S1101|12S20002|2020/2021|odd|B
+12S1101|12S20003|2020/2021|odd|B
+12S1101|12S20002|2021/2022|odd|B(C)
+12S1101|12S20003|2021/2022|odd|AB
+12S2102|12S20002|2021/2022|odd|AB
+12S2102|12S20003|2021/2022|odd|AB
+12S1101|12S20001|2020/2021|even|AB(BC)
+12S1101|12S20002|2020/2021|even|A
+12S1101|12S20003|2020/2021|even|A
