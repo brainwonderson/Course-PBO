@@ -1,0 +1,2 @@
+cek eror
+melakukan  pengujian error handling untuk k
