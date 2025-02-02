@@ -1,0 +1,6 @@
+ linkedlist di java
+ 
+ case "enrollment-remedial":
+                    execute.enrollment_remed(buf);
+                    break; jelaskan
+cek eror
